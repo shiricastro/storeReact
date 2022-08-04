@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+  padding: 10px 20px;
+}
+*{
+  box-sizing: border-box;
+}
+
+.menu_container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.menu_container a{
+  margin: 0 15px 10px;
+
+  
+}
+.title{
+  margin-top: 0;
+}
+.blue{
+  color: #3f51b5;
+}
+.black{color: black;}
+.labelT1{
+  color: darkseagreen;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+.btns{
+  position: relative;
+  width: 100%;
+}
+.btnT1{
+  background: black;
+  color: white;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid black;
+}
+.btnT1.size2{
+  padding: 2px 10px;
+  border-width: 1px;
+}
+.btnT1:hover{
+background: white;
+color: black;
+transition: all .3s;
+}
+.btnT2{
+  border: none;
+  padding: 0;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-bottom:2px solid #3f51b5;
+  font-weight: bold;
+}
+.btn_close{
+position: absolute;
+padding: 0;
+    border: none;
+    top: 4px;
+    right: 4px;
+    font-weight: bold;
+    background: white;
+}
+.back_btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.wraperT1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.wraperT2{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+select{padding: 2px;}
+.containerT1{
+  border: 1px solid #717178;
+  padding: 15px;
+  width: 49%;
+}
+.containerT2{
+  position: relative;
+  border: 1px solid #717178;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.containerT2.size2{
+  padding: 10px;
+}
+.leftText{
+  text-align: left;
+}
+.containerT2:last-of-type{margin-bottom: 0;}
+.wraperT1.size2 .containerT1:first-of-type{
+  width: 35%;
+}
+.wraperT1.size2 .containerT1:last-of-type{
+  width: 62%;
+}
+.wraperT1.size3 .containerT1:first-of-type{
+  width: 62%;
+}
+.wraperT1.size3 .containerT1:last-of-type{
+  width: 35%;
+}
+.active{
+  background: darkseagreen;
+}
+.blueTitle{
+  border-bottom:2px solid #7aaac1;
+  color: #7aaac1;
+}
+.margB1{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.margT1{
+  display: inline-block;
+  margin-top: 10px;
+}
+.margR1{
+  margin-right: 10px;
+}
+.search_container form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.search_container form .btn{margin-left: 20px;}
+.form_item {
+  display: flex;
+  align-items: baseline;
+  text-align: left;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.form_item label{
+  font-size: 85%;
+    margin-bottom: 4px;
+}
+.purchases_table td{
+  padding: 5px 10px;
+}
